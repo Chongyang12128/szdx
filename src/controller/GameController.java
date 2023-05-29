@@ -119,7 +119,7 @@ public class GameController implements GameListener {
         }
         return false;
     } */
-
+//你来删一下注释
 
     // click an empty cell
     @Override
