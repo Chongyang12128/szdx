@@ -597,7 +597,7 @@ public class GameController implements GameListener {
         if (Integer.parseInt(data.substring(2, 3)) != 7) {
             //弹窗一下 地图大小错误
             //终止程序
-            WrongWindow wrongWindow = new WrongWindow(500,500,"地图大小错误");
+            WrongWindow wrongWindow = new WrongWindow(500,500,"map size err occurs");
             wrongWindow.setVisible(true);
             return;
 
