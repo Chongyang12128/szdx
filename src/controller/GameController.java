@@ -379,6 +379,7 @@ public class GameController implements GameListener {
 
             }
         }
+        //尽量处理 undo 问题
     public void undo2(Cell[][] grid) {
         if (Steps.size() == 0) {
             System.out.println("没下棋呢");
@@ -422,6 +423,8 @@ public class GameController implements GameListener {
                     Steps.remove(Steps.size()-1);
 
      */
+    //GameController 优化AI
+
     public void restart(){
             currentPlayer =PlayerColor.BLUE;
            if (selectedPoint!=null){
