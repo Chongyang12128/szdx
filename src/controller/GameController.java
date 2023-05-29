@@ -887,8 +887,10 @@ public class GameController implements GameListener {
 
     public void Playback(Step stepUsedtoPlayTheProcess){
         ArrayList<Step> SS = new ArrayList<>(100);
+        for(int i = 0;i<100;i++){
+       //     String str1 = SS.get(i
 
+    }}
 
-    }
 }
 
