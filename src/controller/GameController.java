@@ -413,9 +413,16 @@ public class GameController implements GameListener {
         }
         validMove = true;
     }
+    //qie huan step
+      /* if (PlayerColor.BLUE==currentPlayer){
+        Tool.Player =1;
+    }else {
+        Tool.Player = 2;
+    }
+                    Steps.remove(Steps.size()-1);
 
-
-        public void restart(){
+     */
+    public void restart(){
             currentPlayer =PlayerColor.BLUE;
            if (selectedPoint!=null){
             for (int i = 0; i < 9; i++) {
