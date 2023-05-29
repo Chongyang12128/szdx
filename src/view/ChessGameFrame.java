@@ -327,7 +327,7 @@ public class ChessGameFrame extends JFrame {
         StartButton.setContentAreaFilled(false);
         StartButton.setBorder(null);
         StartButton.setForeground(Color.WHITE);
-        JButton AIButton = new JButton("AI 1");
+        JButton AIButton = new JButton("AI very easy");
         Mousemotion(AIButton);
         AIButton.setLocation(WIDTH/2-165, HEIGTH / 10 +250);
         AIButton.setSize(300, 100);
@@ -344,7 +344,7 @@ public class ChessGameFrame extends JFrame {
             setContentPane(mainPanel);
             mainPanel.setVisible(true);
         });
-        JButton AIButton2 = new JButton("AI 2");
+        JButton AIButton2 = new JButton("AI easy");
         Mousemotion(AIButton2);
         AIButton2.setLocation(WIDTH/2-165, HEIGTH / 10 +350);
         AIButton2.setSize(300, 100);
@@ -361,7 +361,7 @@ public class ChessGameFrame extends JFrame {
             setContentPane(mainPanel);
             mainPanel.setVisible(true);
         });
-        JButton AI3Button = new JButton("AI 3");
+        JButton AI3Button = new JButton("AI normal");
         Mousemotion(AI3Button);
         AI3Button.setLocation(WIDTH/2-165, HEIGTH / 10 +450);
         AI3Button.setSize(300, 100);
