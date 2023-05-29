@@ -422,6 +422,7 @@ public class GameController implements GameListener {
                     Steps.remove(Steps.size()-1);
 
      */
+    //GameController 优化AI
     public void restart(){
             currentPlayer =PlayerColor.BLUE;
            if (selectedPoint!=null){
